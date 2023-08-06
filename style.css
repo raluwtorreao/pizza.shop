@@ -6,20 +6,19 @@ header {
     color: white;
     font-size: 30px;
     display: flex;
+    justify-content: center;
 }
 img {
     border-radius: 50%;
     width: 30px;
 }
 nav {
-    justify-content: right;
     display: inline-flex;
-
+    align-items: center;
 }
 nav a{
     text-decoration: none;
     color: white;
-    align-items: center;
 }
 ul li {
     margin: 0 15px;
@@ -28,8 +27,15 @@ ul li {
 }
 ul li:hover {
     background-color: rgba(231, 178, 34, 0.479);
-    padding: 30px 10px 25px 5px;
+    padding: 30px 0px 25px 0px;
     border-bottom: 6px solid rgb(231, 179, 34);
+}
+.extra {
+    justify-content: right;
+    display: inline;
+}
+.extra a:hover {
+    color: rgb(231, 179, 34);
 }
 section {
     display: inline;
@@ -55,4 +61,46 @@ button:hover {
     background-color: rgb(231, 179, 34);
     color: black;
     border-color: black;
+}
+.lixo {
+    padding: 120px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.blabla{
+    display: block;
+    color: white;
+    justify-content: center;
+    padding-right: 30px;
+    width: 300px;
+}
+.blabla a{
+    color: rgb(250, 215, 120);
+} 
+.blabla a:hover {
+    color: rgb(231, 179, 34);
+    text-decoration: underline;
+} 
+.final{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.posrodape {
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
 }
